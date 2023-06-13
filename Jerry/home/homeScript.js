@@ -27,8 +27,8 @@ window.addEventListener("DOMContentLoaded", () => {
 
 var swiper6 = new Swiper(".mySwiper6", {
   grabCursor: true,
-  effect: "cube",
-  cubeEffect: {
+  effect: "creative",
+  creativeEffect: {
     prev: {
       shadow: true,
       origin: "left center",
