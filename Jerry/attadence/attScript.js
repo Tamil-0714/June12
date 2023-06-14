@@ -221,7 +221,7 @@ function showList() {
         listContainer.innerHTML = "";
         for (let i = 0; i < files.length; i++) {
           listContainer.innerHTML += `          
-          <li data-id="${files[i].id}" data-name="${files[i].name}">
+          <li data-id="${files[i].id}" data-name="${files[i].name}" data-aos="zoom-in-up">
             <span>${files[i].name}</span>
             <img src="../img/drop.png" onclick="expand(this)" alt="" />
           </li>
